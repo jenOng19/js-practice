@@ -20,3 +20,6 @@ function reverse(arrayOfChars) {
 const word = ['h', 'e', 'l', 'l', 'o'];
 const reversed = reverse(word);
 console.log(reversed);
+
+//We swap the first and last characters, then the second and second-to-last characters, and so on until we reach the middle.
+//O(n) time and O(1) space.
